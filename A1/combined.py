@@ -156,9 +156,9 @@ def solve_puzzles(puzzle_size: int, output_file: str, count: int = 100) -> None:
 
 
 def main() -> None:
-    solve_puzzles(3, "8_puzzle_results.txt")
-    solve_puzzles(4, "15_puzzle_results.txt")
-    solve_puzzles(5, "24_puzzle_results.txt")
+    solve_puzzles(3, "q1results.txt")
+    solve_puzzles(4, "q2results.txt")
+    solve_puzzles(5, "q3results.txt")
 
 
 if __name__ == "__main__":
